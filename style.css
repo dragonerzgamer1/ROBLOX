@@ -1,0 +1,112 @@
+body {
+    margin:0;  
+    padding-top:800px;
+    text-align:center;
+    background-color: azure;
+}
+.profile {
+   width:175px;
+    margin-bottom:50px;
+    border-radius:50%;
+    
+}
+#Welcome {
+    position:absolute;
+    overflow: hidden;
+    height:800px;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    opacity:0.83;
+    background:linear-gradient(#03fc77 0%,#fc3903 100%);
+    display:table;
+    width:100%;
+    height:100%;
+    z-index:9;
+}
+.inner {
+    display:table-cell;
+    position:relative;
+    text-align:center;
+    vertical-align:middle;
+    
+}
+#bio {
+    padding:50px;
+    text-align:center;
+    font-size:42px;
+}
+.line{
+    height:6px;
+    background-color:darkcyan;
+    width:70px;
+    margin:8px auto;
+}
+h1{
+    font-size:40px;
+    line-height:1.2;
+}
+
+h2{
+    font-size:30px;
+    line-height:1.2;
+    font-weight:1000;
+    
+}
+p{
+    max-width:450px;
+    margin:25px auto;
+    font-size:17px;
+}
+.menu {
+    position:fixed;
+    list-style:none;
+    right:30px;
+    top:10px;
+    z-index:10;
+    cursor:pointer;
+    font-family:sans-serif;
+    
+    
+}
+.links {
+    float:left;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    font-size:20px;
+    font-family:fantasy;
+    color:aquamarine;
+}
+
+
+
+.links:hover{
+    background-color:cyan;
+    
+}
+#name {
+    font-size:30px;
+    line-height:1.2;
+    font-family:'Cinzel Decorative',cursive;
+    
+}
+a {
+    text-decoration:none;
+    
+}
+.article:hover {
+    color:firebrick;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
